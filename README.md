@@ -8,7 +8,6 @@
 </p>
 
 ## About Blog Project
-
 - Description : this is  Portfolio project  which I display my personal projects, my skills, Education ,and the programming languages I have learned
 
 - features & packages : Laravel Breeze _ spatie media library
