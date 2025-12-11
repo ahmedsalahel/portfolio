@@ -13,7 +13,8 @@ class HomeController extends Controller
     public function index()
     {
 
+        $profile  = Setting::first();
         $data = Setting::all();
-        return view('front.index', compact('data'));
+        return view('front.index', compact('data' , 'profile'));
     }
 }
